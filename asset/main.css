@@ -1,0 +1,83 @@
+@import '_dashboard.css';
+@import '_keuangan.css';
+@import '_input.css';
+
+body {
+}
+.card {
+    min-height: 0;
+    border: 1px solid rgb(210, 212, 211);
+    box-shadow: 1px 1px 1px rgba(0,0, 0, 0.23);
+    padding: 1.25rem;
+    background: #fff;
+}
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 10px 0;
+    background: #fff;
+}
+
+.height-content {
+ min-height: 95vh; 
+ background-image: url('../foto/bgmin.png');
+ background-position: right bottom;
+ background-repeat: no-repeat;
+ background-size: 900px;
+ position: relative;
+}
+
+.table {
+    max-width: 100%;
+}
+
+/* .menu {
+    background-color: #fff;
+    padding: 1rem;
+    position: absolute;
+    right: 30;
+    display: none;
+}
+
+#sumberDayaMenu:hover .menu {
+    display: block;
+} */
+
+	li.dropdown {
+		display: inline-block;
+	}
+
+	.dropdown:hover .isi-dropdown {
+		display: block;
+	}
+
+	.isi-dropdown a:hover {
+		color: #fff !important;
+	}
+
+	.isi-dropdown {
+		position: absolute;
+		display: none;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+		background-color: #f9f9f9;
+	}
+
+	.isi-dropdown a {
+		color: #3c3c3c !important;
+	}
+
+	.isi-dropdown a:hover {
+		color: 	#f7d203 !important;
+		background: #0E0B16!important;
+	}
+    
+    .info {
+        border:3px solid black;
+        background-color: rgb(255, 255, 255, 0.5);
+        padding: 1rem;
+    }
+
