@@ -2,7 +2,7 @@
 <head>
 <?php	
  
- include($_SERVER["DOCUMENT_ROOT"] . '/bencana/template/header.php');
+ include($_SERVER["DOCUMENT_ROOT"] . '/template/header.php');
  ?>
 <title>Tambah Barang</title>
 <link rel="stylesheet" type="text/css" href="style.css">

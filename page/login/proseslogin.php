@@ -9,7 +9,7 @@
 <tr>
   <td>
    <?php
-    $root = $_SERVER['DOCUMENT_ROOT'].'/bencana';
+    $root = $_SERVER['DOCUMENT_ROOT'].'/';
     $conn = mysqli_connect('localhost','root','','tbpbd');
     session_start();
     if (isset($_POST['Login'])){

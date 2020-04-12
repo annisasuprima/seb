@@ -19,14 +19,14 @@ $hasil = mysqli_query($conn,$sqlstr); if($hasil){
 	echo "
 	<script>
 	alert('data berhasil ditambahkan')
-	document.location.href = '/bencana/page/kejadianbencana/KejadianBencana.php';
+	document.location.href = '/page/kejadianbencana/KejadianBencana.php';
 	</script>
 ";
 } else{
 	echo "
 		<script>
 		alert('data gagal ditambahkan');
-		document.location.href = '/bencana/page/kejadianbencana/tambah-kj.php';
+		document.location.href = '/page/kejadianbencana/tambah-kj.php';
 		</script>
 	";
 }

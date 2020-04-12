@@ -28,7 +28,7 @@
    </style>
    
 	<!-- <link rel="stylesheet" type="text/css" href="dashboard.css"> -->
-    <link rel="stylesheet" type="text/css" href='/bencana/asset/main.css'>
+    <link rel="stylesheet" type="text/css" href='/asset/main.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    
 

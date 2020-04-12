@@ -6,7 +6,7 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
 
-   <script src="/bencana/assets/leaflet.ajax.js"></script>
+   <script src="/assets/leaflet.ajax.js"></script>
 
    <script type="text/javascript">
         var mymap = L.map('mapid').setView([-0.9345808, 100.2511816], 10);
@@ -67,7 +67,7 @@ mymap.on('click', onMapClick);
             l.bindPopup(out.join("<br />"));
         }
     }
-var jsonTest = new L.GeoJSON.AJAX(["/bencana/assets/map.geojson"],{onEachFeature:popUp, style: myStyle}).addTo(mymap);
+var jsonTest = new L.GeoJSON.AJAX(["/assets/map.geojson"],{onEachFeature:popUp, style: myStyle}).addTo(mymap);
 
 
    </script>

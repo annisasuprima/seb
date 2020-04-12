@@ -2,7 +2,7 @@
 <html>
 <?php	
  
- include($_SERVER["DOCUMENT_ROOT"] . '/bencana/template/header.php');
+ include($_SERVER["DOCUMENT_ROOT"] . '/template/header.php');
  
 	$bencana= array(
 	 ["name" => "Bungus Teluk Kabung", "lat"=>-1.075426, "long"=>00.411442],
@@ -158,7 +158,7 @@ mymap3.on('click', onMapClick);
             l.bindPopup(out.join("<br />"));
         }
     }
-var jsonTest = new L.GeoJSON.AJAX(["/bencana/assets/map.geojson"],{onEachFeature:popUp, style: myStyle}).addTo(mymap3);
+var jsonTest = new L.GeoJSON.AJAX(["/assets/map.geojson"],{onEachFeature:popUp, style: myStyle}).addTo(mymap3);
 
        
   

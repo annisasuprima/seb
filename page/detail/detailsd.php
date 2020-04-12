@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<?php
-	include($_SERVER["DOCUMENT_ROOT"] . '/bencana/template/header.php')
+	include($_SERVER["DOCUMENT_ROOT"] . '/template/header.php')
 	?>
 <body>
 

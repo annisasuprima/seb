@@ -32,7 +32,7 @@
    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
    crossorigin=""></script>
 
-   <script src="/bencana/assets/leaflet.ajax.js"></script>
+   <script src="/assets/leaflet.ajax.js"></script>
 
   <script type="text/javascript">
         console.log('jj');
@@ -173,7 +173,7 @@ mymapi.on('click', onMapClick);
 
   
 
-var jsonTest = new L.GeoJSON.AJAX(["/bencana/assets/mapEvk.geojson"],{ pointToLayer: function(feature, latlng) {
+var jsonTest = new L.GeoJSON.AJAX(["/assets/mapEvk.geojson"],{ pointToLayer: function(feature, latlng) {
   let icon = library
   console.log(feature)
   if (feature.properties['marker-symbol'] === 'school') {
@@ -224,7 +224,7 @@ var jsonTest = new L.GeoJSON.AJAX(["/bencana/assets/mapEvk.geojson"],{ pointToLa
     categories = [
       {
         title: 'Jalur Evakuasi',
-        img: "/bencana/foto/ni.png"
+        img: "/foto/ni.png"
       },
       {
         title: "Potential Shelter",
@@ -232,7 +232,7 @@ var jsonTest = new L.GeoJSON.AJAX(["/bencana/assets/mapEvk.geojson"],{ pointToLa
       },
       {
         title: "Zona Rawan Tsunami",
-        img: "/bencana/foto/redzone.png"
+        img: "/foto/redzone.png"
       }
     ];
     for (var i = 0; i < categories.length; i++) {
